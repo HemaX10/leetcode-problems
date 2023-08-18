@@ -1,5 +1,6 @@
 #Hema the king of thewait elna3ora xD
 - 👋 Hi, I’m @HemaX10
+-  Electronic Engineering Student | Menoufia University | Frontend Web Developer 💻 | Turning passion into potential | Lifelong learner
 - 👀 I’m interested in ...learning programming i love it sooooo much + i'm still in collega -Enginnering- and i want to be a big programmer and software develober inshaallah.
 - 🌱 I’m currently learning ...web devlobment 
 - 💞️ I’m looking to collaborate on ...idk
