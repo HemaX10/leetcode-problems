@@ -1,13 +1,33 @@
-#Hema the king of thewait elna3ora xD
-- 👋 Hi, I’m @HemaX10
--  Electronic Engineering Student | Menoufia University | Frontend Web Developer 💻 | Turning passion into potential | Lifelong learner
-- 👀 I’m interested in ...learning programming i love it sooooo much + i'm still in collega -Enginnering- and i want to be a big programmer and software develober inshaallah.
-- 🌱 I’m currently learning ...web devlobment 
-- 💞️ I’m looking to collaborate on ...idk
-- 📫 How to reach me ...here or on twitter "Hema"
+# LeetCode Problem Solutions
 
+Hey there! 👋 Welcome to my LeetCode problem solutions repository. Here, you'll find my solutions to various LeetCode problems categorized by difficulty level.
 
-<!---
-HemaX10/HemaX10 is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-You can click the Preview link to take a look at your changes.
---->
+## Overview
+
+This repository contains my solutions to LeetCode problems. Each problem is solved using various programming languages like Python, Java, or C++, depending on what I feel most comfortable with or what language I'm currently learning.
+
+## Structure
+
+The repository is structured as follows:
+
+- **Problem Difficulty**: Problems are categorized by their difficulty level (Easy, Medium, Hard).
+- **Problem Number and Name**: Each problem solution is organized within its respective difficulty level folder. For example:
+  - `Easy/`
+    - `1_Two_Sum`
+    - `7_Reverse_Integer`
+  - `Medium/`
+    - `3_Longest_Substring_Without_Repeating_Characters`
+    - `11_Container_With_Most_Water`
+  - `Hard/`
+    - `4_Median_of_Two_Sorted_Arrays`
+    - `23_Merge_k_Sorted_Lists`
+- **Solution Files**: Within each problem folder, you'll find the solution files named according to the problem name or number. These files typically contain code snippets or links to my submissions on the LeetCode platform.
+
+## Contributions
+
+Feel free to browse through the solutions and provide feedback or suggestions for improvement. If you've solved a problem differently or have a more optimized solution, I'd love to see it! Please feel free to submit a pull request with your solution, and let's learn from each other.
+
+## Disclaimer
+
+While I strive to provide accurate and efficient solutions, please note that these solutions are based on my understanding of the problems at the time of submission. There may be alternative approaches or edge cases that are not covered in my solutions. Always refer to the official LeetCode problem descriptions and test cases for comprehensive understanding and validation.
+
