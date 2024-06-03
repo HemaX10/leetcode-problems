@@ -12,19 +12,16 @@ class Solution(object):
     def connect(self, root):
         if root == None :
             return None 
-        level =[root] 
-        while level :
-            temp = []
-            for num in range(len(level)) :
-                if num != len(level) - 1 :
-                    level[num].next = level[num+1]
-                if level[num].left :
-                    temp.append(level[num].left)
-                if level[num].right :
-                    temp.append(level[num].right)
-            if temp != [] :
-                level = temp[:]
-            else :
-                break
+        q = deque([root])
+        while q :
+            n = len(q)
+            for _ in range(n) :
+                node = q.popleft()
+                if _ < n -1 :
+                    node.next = q[0]
+                if node.left :
+                    q.append(node.left)
+                if node.right :
+                    q.append(node.right)
         return root
         
