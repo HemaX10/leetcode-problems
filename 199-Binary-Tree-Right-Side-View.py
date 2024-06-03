@@ -6,19 +6,18 @@
 #         self.right = right
 class Solution(object):
     def rightSideView(self, root):
-        if root == None :
-            return []
-        ans , level = [] , [root]
-        while level :
-            temp = []
-            n = len(level)
-            for i in range(n) :
-                if i == n - 1 :
-                    ans.append(level[i].val)
-                if level[i].left :
-                    temp.append(level[i].left)
-                if level[i].right :
-                    temp.append(level[i].right)
-            level = temp[:]    
-        return ans
+            if root == None :
+                return []
+            ans , q = [] , deque([root])
+            while q :
+                n = len(q)
+                for i in range(n) :
+                    node = q.popleft()
+                    if i == n - 1 :
+                        ans.append(node.val)
+                    if node.left :
+                        q.append(node.left)
+                    if node.right :
+                        q.append(node.right) 
+            return ans
         
